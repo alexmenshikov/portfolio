@@ -127,7 +127,7 @@
 
 @media screen and (max-width: 630px) {
 .contact {
-    &__email, &__telegram {
+    &__method {
         font-size: 36px;
     }
 }
@@ -198,7 +198,7 @@
             font-size: 25px;
         }
 
-        &__email, &__telegram {
+        &__method {
             font-size: 25px;
             line-height: 40px;
         }
@@ -238,7 +238,7 @@
     }
 
     .contact {
-        &__email, &__telegram {
+        &__method {
             font-size: 18px;
             line-height: 30px;
         }

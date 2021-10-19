@@ -339,18 +339,8 @@ body {
         grid-column-end: 3;
     }
 
-    // .contact__email
-    &__email {
-        font-family: "Golos_Regular", sans-serif;
-        font-size: 40px;
-        line-height: 60px;
-        font-weight: 600;
-        color: $color-bg-section;
-        text-align: left;
-    }
-
-    // .contact__telegram
-    &__telegram {
+    // .contact__method
+    &__method {
         font-family: "Golos_Regular", sans-serif;
         font-size: 40px;
         line-height: 60px;
