@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!-- encoding -->
+    <meta charset="UTF-8"/>
+
+    <!-- title -->
+    <title>portfolio menshikov</title>
+
+    <!-- styles -->
+    <!-- шрифты fontawesome -->
+    <link rel="stylesheet" href="css/all.css"/>
+    <!-- мои стили -->
+    <link rel="stylesheet" href="css/main.min.css"/>
+
+    <!-- mobile support -->
+    <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
+
+    <!-- favicon -->
+    <!--		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />-->
+</head>
+
+<body>
+<div class="wrapper">
+    <!-- Шапка -->
+    <header class="header">
+        <!-- Меню -->
+        <nav class="menu">
+            <div class="container">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a href="#work" class="menu__item-link">Работы</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#skills" class="menu__item-link">Навыки</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#contact" class="menu__item-link">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <!-- обо мне -->
+        <div class="about">
+            <div class="container">
+                <div class="about__wrapper">
+                    <div class="about__text">
+                        <h2 class="about__text-title">
+                            Здравствуйте, меня зовут Александр Менщиков
+                        </h2>
+                        <span class="about__text-subtitle">HTML-верстальщик</span>
+                    </div>
+                    <div class="about__img">
+                        <img src="./images/my-photo.png" alt="my_photo"/>
+                    </div>
+                </div>
+                <!-- Анимации мыши -->
+                <a class="next" href="#work">
+                    <div class="next__container">
+                        <div class="next__mouse">
+                            <svg
+                                    width="30"
+                                    height="30"
+                                    viewBox="0 0 30 30"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                        d="M15 0C9.17549 0 4.43707 4.81289 4.43707 10.7285V19.2718C4.43707 25.1874 9.17549 30 15 30C20.8242 30 25.5629 25.202 25.5629 19.3046V10.7285C25.5629 4.81289 20.8242 0 15 0ZM23.5761 19.3046C23.5761 24.1066 19.7291 28.0133 15 28.0133C10.2712 28.0133 6.42387 24.0918 6.42387 19.2715V10.7285C6.42387 5.90824 10.2712 1.98674 15 1.98674C19.7291 1.98674 23.5761 5.90824 23.5761 10.7285V19.3046Z"
+                                ></path>
+                                <path
+                                        d="M15 8.21191C14.4513 8.21191 14.0066 8.65664 14.0066 9.20531V12.6821C14.0066 13.2308 14.4513 13.6755 15 13.6755C15.5487 13.6755 15.9934 13.2308 15.9934 12.6821V9.20531C15.9934 8.65664 15.5487 8.21191 15 8.21191Z"
+                                ></path>
+                            </svg>
+                        </div>
+                        <div class="next__arrow">
+                            <svg
+                                    width="20"
+                                    height="30"
+                                    viewBox="0 0 20 30"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <g clip-path="url(#clip0)">
+                                    <path
+                                            d="M19.7556 4.82771C19.4298 4.5019 18.9032 4.5019 18.5773 4.82771L9.99999 13.405L1.42267 4.82771C1.09686 4.5019 0.570187 4.5019 0.244373 4.82771C-0.08144 5.15352 -0.08144 5.68019 0.244373 6.00601L9.41086 15.1725C9.57335 15.335 9.78667 15.4167 10 15.4167C10.2134 15.4167 10.4267 15.335 10.5892 15.1725L19.7557 6.00601C20.0814 5.68019 20.0814 5.15352 19.7556 4.82771Z"
+                                    ></path>
+                                </g>
+                                <g clip-path="url(#clip1)">
+                                    <path
+                                            d="M19.7556 14.8277C19.4298 14.5019 18.9032 14.5019 18.5773 14.8277L9.99999 23.405L1.42267 14.8277C1.09686 14.5019 0.570187 14.5019 0.244373 14.8277C-0.08144 15.1535 -0.08144 15.6802 0.244373 16.006L9.41086 25.1725C9.57335 25.335 9.78667 25.4167 10 25.4167C10.2134 25.4167 10.4267 25.335 10.5892 25.1725L19.7557 16.006C20.0814 15.6802 20.0814 15.1535 19.7556 14.8277Z"
+                                    ></path>
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0">
+                                        <rect width="20" height="20" fill="white"></rect>
+                                    </clipPath>
+                                    <clipPath id="clip1">
+                                        <rect
+                                                width="20"
+                                                height="20"
+                                                fill="white"
+                                                transform="translate(0 10)"
+                                        ></rect>
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- работы -->
+        <section id="work" class="work">
+            <div class="container">
+                <div class="work__wrapper">
+                    <h2 class="work__title">Работы</h2>
+                    <div class="work__subtitle">Хочу показать Вам последние работы, которые были мной сделаны, страницы
+                        корректно отображаются на разрешениях от 320px до 1920px и более.
+                    </div>
+
+                    <div class="work__items">
+                        <div class="work__item">
+                            <a class="work__item-wrapper" href="https://alexmenshikov.github.io/mono-jevelry/"
+                               target="_blank">
+                                <div class="work__item-img">
+                                    <img src="./images/site-3.png" alt="site-3"/>
+                                </div>
+                                <div class="work__item-hover">
+                                    <span>перейти на страницу</span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="work__item">
+                            <a class="work__item-wrapper" href="https://alexmenshikov.github.io/barbershop/"
+                               target="_blank">
+                                <div class="work__item-img">
+                                    <img src="./images/site-2.png" alt="site-2"/>
+                                </div>
+                                <div class="work__item-hover">
+                                    <span>перейти на страницу</span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="work__item">
+                            <a class="work__item-wrapper" href="https://alexmenshikov.github.io/burger-club/"
+                               target="_blank">
+                                <div class="work__item-img">
+                                    <img src="./images/site-1.png" alt="site-1"/>
+                                </div>
+                                <div class="work__item-hover">
+                                    <span>перейти на страницу</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- навыки -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <div class="skills__wrapper">
+                    <h2 class="skills__title">Навыки</h2>
+                    <div class="skills__subtitle">Указал навыки которыми владею, при этом продолжаю учиться и
+                        развиваться в frontend разработке.
+                    </div>
+
+                    <div class="skills__items">
+                        <div class="skills__item">
+                            <div class="skills__item-img"><img src="./images/skills/html.png" alt="html"></div>
+                            <div class="skills__item-name">HTML</div>
+                        </div>
+                        <div class="skills__item">
+                            <div class="skills__item-img"><img src="./images/skills/css.png" alt="css"></div>
+                            <div class="skills__item-name">CSS</div>
+                        </div>
+                        <div class="skills__item">
+                            <div class="skills__item-img"><img src="./images/skills/js.png" alt="js"></div>
+                            <div class="skills__item-name">JavaScript</div>
+                        </div>
+                        <div class="skills__item">
+                            <div class="skills__item-img"><img src="./images/skills/jquery.png" alt="jquery"></div>
+                            <div class="skills__item-name">jQuery</div>
+                        </div>
+                        <div class="skills__item">
+                            <div class="skills__item-img"><img src="./images/skills/bootstrap.png" alt="bootstrap">
+                            </div>
+                            <div class="skills__item-name">Bootstrap</div>
+                        </div>
+                        <div class="skills__item">
+                            <div class="skills__item-img"><img src="./images/skills/git.png" alt="git"></div>
+                            <div class="skills__item-name">GIT</div>
+                        </div>
+                        <div class="skills__item">
+                            <div class="skills__item-img"><img src="./images/skills/sass.png" alt="sass"></div>
+                            <div class="skills__item-name">SASS</div>
+                        </div>
+                        <div class="skills__item">
+                            <div class="skills__item-img"><img src="./images/skills/less.png" alt="less"></div>
+                            <div class="skills__item-name">LESS</div>
+                        </div>
+                        <div class="skills__item">
+                            <div class="skills__item-img"><img src="./images/skills/npm.png" alt="npm"></div>
+                            <div class="skills__item-name">NPM</div>
+                        </div>
+                        <div class="skills__item">
+                            <div class="skills__item-img"><img src="./images/skills/gulp.png" alt="gulp"></div>
+                            <div class="skills__item-name">GULP</div>
+                        </div>
+                        <div class="skills__item">
+                            <div class="skills__item-img"><img src="./images/skills/grunt.png" alt="grunt"></div>
+                            <div class="skills__item-name">GRUNT</div>
+                        </div>
+                        <div class="skills__item">
+                            <div class="skills__item-img"><img src="./images/skills/vs-code.png" alt="vs-code"></div>
+                            <div class="skills__item-name">VS CODE</div>
+                        </div>
+                        <div class="skills__item">
+                            <div class="skills__item-img"><img src="./images/skills/php-storm.png" alt="php-storm">
+                            </div>
+                            <div class="skills__item-name">PhpStorm</div>
+                        </div>
+                        <div class="skills__item">
+                            <div class="skills__item-img"><img src="./images/skills/photoshop.png" alt="photoshop">
+                            </div>
+                            <div class="skills__item-name">Photoshop</div>
+                        </div>
+                        <div class="skills__item">
+                            <div class="skills__item-img"><img src="./images/skills/figma.png" alt="figma"></div>
+                            <div class="skills__item-name">Figma</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- контакты -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="contact__title">Я в поиске новой интересной работы. Буду рад стать частью Вашей команды!</h2>
+                <div class="contact__wrapper">
+                    <div class="contact__subtitle">Вы можете связаться со мной любым удобным для Вас способом.
+                    </div>
+                    <div class="contact__link">
+                        <a class="contact__email link" href="mailto:menshchikov.aleksandr@yandex.ru">menshchikov.aleksandr@ya.ru</a>
+                    </div>
+                    <div class="contact__link">
+                        <a class="contact__telegram link" href="https://t.me/menshikov_ru">telegram/menshikov_ru</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+    </footer>
+</div>
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/main.min.js"></script>
+</body>
+</html>
